@@ -1,5 +1,5 @@
-# Yolov3 Object Detection with Flask and Tensorflow 2.0 (APIs and Detections)
-Yolov3 is an algorithm that uses deep convolutional neural networks to perform object detection. This repository implements Yolov3 using TensorFlow 2.0 and creates two easy-to-use APIs that you can integrate into web or mobile applications. <br>
+# Yolov3 Object Detection with  Tensorflow 2.0 (APIs and Detections)
+Yolov3 is an algorithm that uses deep convolutional neural networks to perform object detection. This repository implements Yolov3 using TensorFlow 2.0  <br>
 
 ![example](https://github.com/theAIGuysCode/Object-Detection-API/blob/master/detections/detection.jpg)
 
@@ -65,8 +65,6 @@ python load_weights.py --weights ./weights/yolov3-tiny.weights --output ./weight
 
 After executing one of the above lines, you should see .tf files in your weights folder.
 
-## Running the Flask App and Using the APIs
-Now you can run a Flask application to create two object detections APIs in order to get detections through REST endpoints.
 
 If you used custom weights and classes then you may need to adjust one or two of the following lines within the app.py file before running it.
 ![app](https://github.com/theAIGuysCode/Object-Detection-API/blob/master/data/helpers/custom_app.PNG)
